@@ -103,10 +103,6 @@
   display: inline-block;
 }
 
-.nav {
-  text-align: center;
-}
-
 .unit-s-hidden {
   display: none;
   visibility: hidden;

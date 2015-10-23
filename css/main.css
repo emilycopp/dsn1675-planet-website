@@ -20,21 +20,29 @@ h1 {
 	text-align: center;
 }
 
+.background {
+	background-color: #ccc;
+}
+
+.nav li {
+	list-style-type: none;
+}
 .nav {
 	margin: 0;
 	padding: 0;
-	list-style-type: none;
+	text-decoration: none;
 }
 
 .nav a {
 	display: block;
 	text-decoration: none;
-	padding: .5em 1em;
 }
 
 .nav ul {
-	margin: 0;
+	margin-top: 21.440pt;
+	margin-left: 21.440pt;
 	padding: 0;
+	text-decoration: none;
 }
 
 .img-flex {
