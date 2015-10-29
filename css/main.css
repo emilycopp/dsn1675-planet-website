@@ -26,21 +26,29 @@ h1 {
 	background-color: #ccc;
 }
 
-.nav li {
+.background-medium {
+	background-color: #ddd;
+}
+
+.background-light {
+	background-color: #eee;
+}
+
+.nav li{
 	list-style-type: none;
 }
-.nav {
+.nav{
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
 }
 
-.nav a {
+.nav a{
 	display: block;
 	text-decoration: none;
 }
 
-.nav ul {
+.nav ul{
 	padding: 0;
 	text-decoration: none;
 }
@@ -50,8 +58,39 @@ h1 {
 	display: block;
 }
 
-.gutter {
-	padding-top: 1.5rem;
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+a:hover {
+	color: #fff;
+	background-color: blue;
+}
+
+a {
+	color: blue;
+}
+
+@media only screen and (min-width: 25em) {
+
+.nav li{
+  display: inline-block;
+}
+
+.nav ul {
+  text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 38em) {
+
+.nav ul{
+  text-align: left;
+}
+
+h1 {
+	text-align: left;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
 }

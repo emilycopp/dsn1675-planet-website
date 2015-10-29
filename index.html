@@ -6,57 +6,102 @@
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/typography.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 
 <div class="grid background">
-	<div class="unit xs-1 s-1 m-1-3 l-1-3">
+	<div class="unit xs-1 s-1 m-1-3 l-1-3 gutter">
 		<h1>Venus</h1>
 	</div>
-	<div class="unit xs-1 s-1-2 unit-s-centered m-2-3 l-2-3">
+	<div class="unit xs-1 s-1 unit-s-centered m-2-3 l-2-3 pad-t-1-4">
 		<nav class="nav">
 			<ul>
-				<li><a href="index.html">Planet</a></li>
-				<li><a href="moons.html">Moons</a></li>
-				<li><a href="">Exploration</a></li>
+				<li><a class="island-1-4" href="index.html">Planet</a></li>
+				<li><a class="island-1-4" href="moons.html">Moons</a></li>
+				<li><a class="island-1-4" href="exploration.html">Exploration</a></li>
 			</ul>
 		</nav>
 	</div>
 </div>
 
-<div class="grid">
-	<div class="unit xs-1 s-1 m-1-2 l-1-3">
-		<img class="img-flex" src="images/venus.jpg" alt="">
-	</div>
-
-	<div class="unit xs-1 s-1 m-1-2 l-2-3">
-		<h2>Venus</h2>
-		<p>Venus is the second planet from the Sun, orbiting it every 224.7 Earth days. Venus is a terrestrial planet and is sometimes called Earth's "sister planet" because of their similar size, gravity, and bulk composition. However, it has also been shown to be radically different from Earth in other respects.</p>
+<div class="grid background-medium">
+	<div class="unit xs-1 s-1 m-1 l-1 text-center pad-top-half pad-bottom-half giga">
+		<p>Venus, the second planet in the Solar System.</p>
 	</div>
 </div>
 
 <div class="grid">
-	<div class="unit xs-1 s-1 m-1-3 l-1-3 gutter">
+	<div class="unit xs-1 s-1 m-1-2 l-1-3 pad-b pad-t">
+		<img class="img-flex" src="images/venus.jpg" alt="">
+	</div>
+
+	<div class="unit xs-1 s-1 m-1-2 l-2-3 gutter">
+		<div class="grid">
+			<div class="unit xs-1 s-1 m-1 l-1 pad-b pad-t-1-2">
+				<h2>Venus</h2>
+			</div>
+			<div class="unit xs-1 s-1 m-1 l-1 pad-b">
+				<p>Venus is the second planet from the Sun, orbiting it every 224.7 Earth days. Venus is a terrestrial planet and is sometimes called Earth's "sister planet" because of their similar size, gravity, and bulk composition. However, it has also been shown to be radically different from Earth in other respects.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="grid background-light">
+	<div class="unit xs-1 s-1 m-1-3 l-1-3 pad-t">
 		<img class="img-flex" src="images/venus-1.jpg" alt="">
-		<div class="unit xs-1 s-1 m-1 l-1 ">
+		<div class="unit xs-1 s-1 m-1 l-1 gutter milli pad-top-half pad-b">
 			<p>Global radar view of the surface from Magellan radar imaging between 1990 and 1994.</p>
 		</div>
 	</div>
 
-	<div class="unit xs-1 s-1-2 m-1-3 l-1-3 gutter">
+	<div class="unit xs-1 s-1-2 m-1-3 l-1-3 pad-t">
 		<img class="img-flex" src="images/venus-2.jpg" alt="">
-		<div class="unit xs-1 s-1 m-1 l-1 ">
+		<div class="unit xs-1 s-1 m-1 l-1 gutter milli pad-top-half pad-b">
 			<p>Impact craters on the surface of Venus.</p>
 		</div>
 	</div>
 
-	<div class="unit xs-1 s-1-2 m-1-3 l-1-3 gutter">
+	<div class="unit xs-1 s-1-2 m-1-3 l-1-3 pad-t">
 		<img class="img-flex" src="images/venus-3.jpg" alt="">
-		<div class="unit xs-1 s-1 m-1 l-1 ">
+		<div class="unit xs-1 s-1 m-1 l-1 gutter milli pad-top-half pad-b">
 			<p>Maat Mons with a vertical exaggeration of 22.5.</p>
 		</div>
+	</div>
+</div>
+
+<div class="grid background-medium">
+	<div class="unit xs-1 s-1 m-1-2 l-1-2 gutter pad-top-half">
+		<h3 class="kilo pad-b">Orbital Characteristics</h3>
+
+		<dl>
+			<dt class="micro">Aphelion: </dt>
+				<dd class="pad-b">108 939 000 km</dd>
+			<dt class="micro">Perihelion: </dt>
+				<dd class="pad-b">107 477 000 km</dd>
+			<dt class="micro">Orbital period: </dt>
+				<dd class="pad-b">224.701 d</dd>
+			<dt class="micro">Average orbital speed: </dt>
+				<dd class="pad-b">35.02 km/s</dd>
+		</dl>
+	</div>
+
+	<div class="unit xs-1 s-1 m-1-2 l-1-2 gutter pad-top-half">
+		<h3 class="kilo pad-b">Physical Characteristics</h3>
+
+		<dl>
+			<dt class="micro">Mean radius: </dt>
+				<dd class="pad-b">6051.8±1.0 km</dd>
+			<dt class="micro">Mass: </dt>
+				<dd class="pad-b">4.8676×10<sup>24</sup> kg</dd>
+			<dt class="micro">Surface gravity: </dt>
+				<dd class="pad-b">8.87 m/s<sup>2</sup></dd>
+			<dt class="micro">Axial tilt: </dt>
+				<dd class="pad-b">177.36°</dd>
+		</dl>
 	</div>
 </div>
 
