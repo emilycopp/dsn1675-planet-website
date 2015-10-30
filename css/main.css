@@ -1,25 +1,5 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-	margin: 0;
 	font-family: sans-serif;
-}
-
-h1 {
-	text-align: center;
-	margin: 0;
 }
 
 .background {
@@ -34,22 +14,11 @@ h1 {
 	background-color: #eee;
 }
 
-.nav li{
-	list-style-type: none;
-}
-.nav{
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
+h1 {
+	text-align: center;
 }
 
-.nav a{
-	display: block;
-	text-decoration: none;
-}
-
-.nav ul{
-	padding: 0;
+.nav a, .footer a {
 	text-decoration: none;
 }
 
@@ -58,13 +27,21 @@ h1 {
 	display: block;
 }
 
-a:hover {
+.nav a:hover {
 	color: #fff;
 	background-color: blue;
 }
 
 a {
 	color: blue;
+}
+
+.footer li {
+	display: inline-block;
+}
+
+.footer ul {
+	text-align: center;
 }
 
 @media only screen and (min-width: 25em) {
